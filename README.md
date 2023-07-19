@@ -3,8 +3,8 @@
 ![image](assets/image.png)
 
 ## Description
-This project is a data analysis and visualization project focused on analyzing a dataset of properties for sale from the website immoweb.be. The project involves cleaning the dataset, performing exploratory data analysis, and creating visualizations to gain insights into the properties and their characteristics.
-
+This project is a data analysis and visualization project focused on analyzing a dataset of properties for sale from the website immoweb.be. The project involves cleaning the dataset, performing exploratory data analysis and creating visualizations to gain insights into the properties and their characteristics.
+In addition to the data analysis and visualization, this project also incorporates machine learning (ML) techniques to build predictive models for property prices based on various features. Three different ML methods have been utilized to create these models: Linear Regression, Decision Tree Regression, and XGBoost Regression.
 ## Installation
 . Install the required libraries:
 
@@ -13,6 +13,8 @@ This project is a data analysis and visualization project focused on analyzing a
    - [![NumPy Version](https://img.shields.io/badge/numpy-1.x-orange)](https://numpy.org/)
    - [![Matplotlib Version](https://img.shields.io/badge/Matplotlib-3.x-red)](https://matplotlib.org/)
    - [![Seaborn Version](https://img.shields.io/badge/seaborn-0.x-yellow)](https://seaborn.pydata.org/)
+   - [![xgboost Version](https://img.shields.io/badge/xgboost-1.7.6-yellow)](https://xgboost.readthedocs.io/en/stable/)
+   - [![sklearn Version](https://img.shields.io/badge/sklearn-0.x-yellow)](https://scikit-learn.org/stable/)
 
    You can click on the badge links to learn more about each library and its specific version used in this project.
    You can install them manually using `pip install <library name>` or just running `pip install -r requirements.txt`.
@@ -29,7 +31,7 @@ This project is a data analysis and visualization project focused on analyzing a
 Fatemeh Loni
 
 ## Timeline
-The project took approximately 5days to complete.
+The project took approximately 5 days to complete the data analysis and took 4 days to complete the ML.
 
 ## Personal Situation
 This project was completed as part of the AI Bootcamp at BeCode.org.
