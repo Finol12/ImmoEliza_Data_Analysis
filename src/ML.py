@@ -22,12 +22,12 @@ def get_df(df):
     apartment_df = df[df["Type"] == "apartment"]
     columns_to_drop_apartment = ['URL','Listing_ID','Price_per_sqm','Type', 'Subtype','Listing_address','Postal_code', 'Locality', 'Kitchen','State of the building']
     apartment_df = apartment_df.drop(columns= columns_to_drop_apartment)
-    # apartment_df.to_csv('apartment_df.csv', index=False)
+    apartment_df.to_csv('./data/apartment_df.csv', index=False)
     # Filter and process house data
     house_df = df[df["Type"] == "house"]
     columns_to_drop_house =  ['URL', 'Listing_ID','Type', 'Price_per_sqm','Subtype','Listing_address','Postal_code', 'Locality', 'Kitchen','State of the building']
     house_df = house_df.drop(columns= columns_to_drop_house)
-    # house_df.to_csv('house_df.csv', index=False)
+    house_df.to_csv('./data/house_df.csv', index=False)
     # Return the separate DataFrames for apartments and houses
     return apartment_df, house_df
 

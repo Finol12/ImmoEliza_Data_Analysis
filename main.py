@@ -33,7 +33,7 @@ utils.house_and_partment_price_per_sqm(df)
 apartment_df, house_df=ML.get_df(df)
 
 
-##Linear Regression model
+#Linear Regression model
 train_score_apartment, test_score_apartment=ML.train_linear_regression(apartment_df, "Price", test_size=0.2, random_state=0)
 train_score_house, test_score_house=ML.train_linear_regression(house_df, "Price", test_size=0.2, random_state=0)
 print("train_score_apartment:  ",train_score_apartment)
@@ -43,7 +43,7 @@ print("train_score_house:  ",train_score_house)
 print("test_score_house:  ",test_score_house)
 
 
-####DecisionTRee model
+#DecisionTRee model
 r2_apartment=ML.train_DecisionTree_regression(apartment_df, "Price", test_size=0.2, random_state=0)
 r2_house=ML.train_DecisionTree_regression(house_df, "Price", test_size=0.2, random_state=0)
 
@@ -51,7 +51,7 @@ print("DecisionTRee R-squared (Apartment):", r2_apartment)
 print("DecisionTRee R-squared (House):", r2_house)
 
 
-####xgboost model
+#xgboost model
 r2_apartment=ML.train_xgboost(apartment_df, "Price", test_size=0.2, random_state=0)
 r2_house=ML.train_xgboost(house_df, "Price", test_size=0.2, random_state=0)
 
