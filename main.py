@@ -2,13 +2,6 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.metrics import r2_score
-import xgboost as xgb
-from sklearn.preprocessing import OneHotEncoder
-# library for save and load scikit-learn models
 import pickle
 
 
@@ -40,14 +33,14 @@ apartment_df, house_df=ML.get_df(df)
 #Linear Regression model
 train_score_apartment, test_score_apartment=ML.train_linear_regression(apartment_df, "Price", test_size=0.2, random_state=0)
 train_score_house, test_score_house=ML.train_linear_regression(house_df, "Price", test_size=0.2, random_state=0)
-print("train_score_apartment:  ",train_score_apartment)
+print("train_score_apartment:  ",)
 print("test_score_apartment:  ",test_score_apartment)
 
 print("train_score_house:  ",train_score_house)
 print("test_score_house:  ",test_score_house)
 
 
-#DecisionTRee model
+#DecisionTRee modeltrain_score_apartment
 r2_apartment=ML.train_DecisionTree_regression(apartment_df, "Price", test_size=0.2, random_state=0)
 r2_house=ML.train_DecisionTree_regression(house_df, "Price", test_size=0.2, random_state=0)
 
