@@ -7,6 +7,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import r2_score
 import xgboost as xgb
+from sklearn.preprocessing import OneHotEncoder
+# library for save and load scikit-learn models
+import pickle
+
 
 from src import utils
 from src import ML
@@ -52,8 +56,8 @@ print("DecisionTRee R-squared (House):", r2_house)
 
 
 #xgboost model
-r2_apartment=ML.train_xgboost(apartment_df, "Price", test_size=0.2, random_state=0)
-r2_house=ML.train_xgboost(house_df, "Price", test_size=0.2, random_state=0)
+r2_apartment=ML.train_xgboost_apartment(apartment_df, "Price", test_size=0.2, random_state=0)
+r2_house=ML.train_xgboost_house(house_df, "Price", test_size=0.2, random_state=0)
 
 print("xgboost R-squared (Apartment):", r2_apartment)
 print("xgboost R-squared (House):", r2_house)
