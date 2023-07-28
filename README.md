@@ -13,9 +13,9 @@ In addition to the data analysis and visualization, this project also incorporat
    - [![NumPy Version](https://img.shields.io/badge/numpy-1.x-orange)](https://numpy.org/)
    - [![Matplotlib Version](https://img.shields.io/badge/Matplotlib-3.x-red)](https://matplotlib.org/)
    - [![Seaborn Version](https://img.shields.io/badge/seaborn-0.x-yellow)](https://seaborn.pydata.org/)
-   - [![xgboost Version](https://img.shields.io/badge/xgboost-1.7.6-yellow)](https://xgboost.readthedocs.io/en/stable/)
-   - [![sklearn Version](https://img.shields.io/badge/sklearn-0.x-yellow)](https://scikit-learn.org/stable/)
-   - [![FastAPI Version](https://img.shields.io/badge/FastAPI-0.x-yellow)](https://fastapi.tiangolo.com/)
+   - [![xgboost Version](https://img.shields.io/badge/xgboost-1.7.6-black)](https://xgboost.readthedocs.io/en/stable/)
+   - [![sklearn Version](https://img.shields.io/badge/sklearn-0.x-grey)](https://scikit-learn.org/stable/)
+   - [![FastAPI Version](https://img.shields.io/badge/FastAPI-0.x-violet)](https://fastapi.tiangolo.com/)
 
    You can click on the badge links to learn more about each library and its specific version used in this project.
    You can install them manually using `pip install <library name>` or just running `pip install -r requirements.txt`.
