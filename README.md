@@ -36,9 +36,9 @@ The FastAPI implementation allows users to predict property prices based on vari
 Fatemeh Loni
 
 ## Timeline
-. Data Analysis and Visualization: Approximately 5 days
-. Machine Learning Model Development: Approximately 4 days
-. FastAPI Integration: Approximately 3 days
+. Data Analysis and Visualization: Approximately 5 days  
+. Machine Learning Model Development: Approximately 4 days  
+. FastAPI Integration: Approximately 3 days  
 
 ## Personal Situation
 This project was completed as part of the AI Bootcamp at BeCode.org.
@@ -50,12 +50,12 @@ The data used in this project is sourced from the [challenge_collecting_data](ht
 Please refer to the [challenge_collecting_data](https://github.com/Finol12/challenge-collecting-data) repository for more information on how the data was collected and preprocessed.
 
 ### How to Use FastAPI
-1. Install the required libraries:
-
-. FastAPI: "pip install fastapi"
-. Uvicorn (ASGI server): "pip install uvicorn"
-. Pydantic (Data validation and serialization): "pip install pydantic"
-You can also install all the required dependencies by running pip install -r requirements.txt.
+1. Install the required libraries:  
+  
+. FastAPI: "pip install fastapi"  
+. Uvicorn (ASGI server): "pip install uvicorn"  
+. Pydantic (Data validation and serialization): "pip install pydantic"  
+You can also install all the required dependencies by running pip install -r requirements.txt.  
 
 2. Run the FastAPI app using the following command:
 uvicorn app:app --reload
