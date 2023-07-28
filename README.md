@@ -36,9 +36,9 @@ The FastAPI implementation allows users to predict property prices based on vari
 Fatemeh Loni
 
 ## Timeline
-. Data Analysis and Visualization: Approximately 5 days\n
-. Machine Learning Model Development: Approximately 4 days\n
-. FastAPI Integration: Approximately 3 days\n
+. Data Analysis and Visualization: Approximately 5 days
+. Machine Learning Model Development: Approximately 4 days
+. FastAPI Integration: Approximately 3 days
 
 ## Personal Situation
 This project was completed as part of the AI Bootcamp at BeCode.org.
